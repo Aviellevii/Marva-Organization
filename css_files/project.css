@@ -1,0 +1,214 @@
+
+@media screen and (max-width: 530px) {
+  td{
+      font-size:20px;
+  }
+}
+@media screen and (max-width: 435px) {
+  h1{
+      font-size:20px;
+  }
+  td{
+      font-size:17px;
+  }
+}
+h1{
+    color:  rgb(247, 247, 247);
+    text-align: center ;
+    font-size: 25px;
+    background-color:  rgb(36, 117, 72);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body {
+  background-color:  rgb(253, 243, 222);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+max-width: 480px;
+margin: auto;
+background-color:  rgb(253, 243, 222);
+height: 500px;
+color:  rgb(36, 117, 72);
+border-radius: 10px;
+}
+
+h2{
+  margin-bottom: 5px;
+}
+
+.topnav {
+overflow: hidden;
+background-color: #b4a688;
+position: relative;
+
+}
+.topnav #myLinks {
+display: none;
+}
+
+.topnav a {
+color:  rgb(253, 243, 222);
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+display: block;
+}
+
+.topnav a.icon {
+background-color: rgb(211, 148, 31);
+display: block;
+position: absolute;
+left: 0;
+top: 0;
+}
+
+.topnav a:hover {
+background-color:  #ffe2a9;
+color: rgb(211, 148, 31);
+}
+
+.active {
+  background-color: rgb(36, 117, 72) ;
+}
+
+img{
+  widows: 75px;
+  display:block;
+  margin:15px auto;
+}
+
+p1{
+font-size: 14px;
+color:  #b4a688;
+}
+
+.topnav div {display:none}
+
+.container {
+display: block;
+position: relative;
+padding-right: 35px;
+margin-bottom: 12px;
+cursor: pointer;
+font-size: 17px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.container input {
+position: absolute;
+opacity: 0;
+cursor: pointer;
+}
+
+.checkmark {
+position: absolute;
+top: 0;
+right: 0;
+height: 20px;
+width: 20px;
+background-color: #ecdcb9;;
+border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+background-color: #ffeec8;
+}
+
+.container input:checked ~ .checkmark {
+background-color:  rgb(211, 148, 31);
+}
+
+.checkmark:after {
+content: "";
+position: absolute;
+display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ top: 6px;
+left: 6px;
+width: 8px;
+height: 8px;
+border-radius: 50%;
+background:  rgb(253, 243, 222);
+}
+input[type=button]{
+  background-color:  rgb(166, 187, 175);
+  border-color:  rgb(36, 117, 72);
+  color:  rgb(29, 92, 57);
+  height: 1cm;
+  font-size: 20px ;
+  widows: 75px;
+  margin:15px auto;
+}
+input[type="submit"]{
+  background-color:  rgb(166, 187, 175);
+  border-color:  rgb(36, 117, 72);
+  color:  rgb(29, 92, 57);
+  height: 1cm;
+  font-size: 20px ;
+  widows: 75px;
+  margin:15px auto;
+}
+button{
+  background-color:  rgb(166, 187, 175);
+  border-color:  rgb(36, 117, 72);
+  color:  rgb(29, 92, 57);
+  height: 1cm;
+  font-size: 20px ;
+  widows: 75px;
+  margin:15px auto;
+}
+
+
+.dropbtn {
+background-color:  rgb(36, 117, 72);
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+
+}
+.dropbtn {display: none}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #fdecc8;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: rgb(0, 0, 0);
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+input[type=number]{
+  display: none;
+}
+
+.dropdown-content a:hover {background-color: #ffe2a9;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:rgb(211, 148, 31);
+}

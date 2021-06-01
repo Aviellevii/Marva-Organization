@@ -1,0 +1,62 @@
+body{
+	background-color:  rgb(253, 243, 222);
+font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+	color:  rgb(247, 247, 247);
+	    text-align: center ;
+	    font-size: 25px;
+	    background-color:  rgb(36, 117, 72);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	 }
+.login-box{
+	width: 320px;
+	height: 335px;
+	background:#8bc34a;
+	widows: 75px;
+	display:block;
+	margin:15px auto;
+}
+img{
+  widows: 75px;
+  display:block;
+  margin:15px auto;
+}
+h2{
+	margin: 0;
+	text-align: center;
+	padding: 20px 20px 50px;
+	font-size: 22px
+}
+p{
+	font-size: 25px;
+}
+.login-box input{
+	margin-bottom: 20px;
+}
+.login-box input[type="text"],input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	font-size: 20px;
+}
+.login-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 20px;
+	margin-top: 15px;
+
+}
+.login-box input[type="submit"]:hover{
+	cursor: pointer;
+	background: #39dc79;
+	color:#000;
+}
