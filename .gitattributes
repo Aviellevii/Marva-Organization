@@ -1,3 +1,6 @@
+*.sol linguist-language=Solidity
 *.html linguist-detectable=true
 *.css linguist-detectable=true
 *.js linguist-detectable=true 
+*.php linguist-detectable=true 
+
